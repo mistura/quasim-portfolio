@@ -47,10 +47,7 @@ html {
   padding: 0 !important;
 }
 
-:where(.css-dev-only-do-not-override-1v28nim).ant-collapse>.ant-collapse-item:last-child, :where(.css-dev-only-do-not-override-1v28nim).ant-collapse>.ant-collapse-item:last-child>.ant-collapse-header {
 
-    background-color: #ff8553;
-}
 
 .menu:hover{
   color: #ff8553;
