@@ -1,0 +1,105 @@
+@import "tailwindcss";
+@tailwind components;
+@tailwind utilities;
+
+
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+.gradient-bg {
+  
+  height: 100vh; /* adjust as needed */
+ background: linear-gradient(
+      90deg,
+      rgba(15, 32, 39, 0.95) 0%,    /* Darker left */
+      rgba(32, 58, 67, 0.7) 40%,   /* Mid tone */
+      rgba(44, 83, 100, 0.2) 70%,  /* Fading out */
+      rgba(44, 83, 100, 0) 100%    /* Fully transparent right */
+    ), url('/public/quasim.jpeg') left no-repeat;
+
+}
+
+.school ul{
+  list-style: circle;
+  padding-left: 30px;
+}
+
+.ant-btn-primary {
+  background: linear-gradient(to right, #8095FF, #65BAFD) !important;
+  border: none !important;
+}
+
+.ant-btn-primary:hover {
+  background: linear-gradient(to right, #65BAFD, #8095FF) !important;
+}
+
+.bg{
+  background: linear-gradient(to right, #8095FF, #65BAFD) !important;
+}
+
+
+
+#root{
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth !important;
+  padding: 0 !important;
+}
+
+:where(.css-dev-only-do-not-override-1v28nim).ant-collapse>.ant-collapse-item:last-child, :where(.css-dev-only-do-not-override-1v28nim).ant-collapse>.ant-collapse-item:last-child>.ant-collapse-header {
+
+    background-color: #ff8553;
+}
+
+.menu:hover{
+  color: #ff8553;
+  outline-offset: 8px;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+  transition: all 0.2s ease-in-out;
+
+}
+.home{
+background: linear-gradient(135deg, #ff8553, #ff4b1f, #ff6f61);
+
+}
+
+.headerText{
+  font-size: 42px;
+  color: white;
+  /* font-weight: 600; */
+
+}
+
+.customBtn{
+background: linear-gradient(to right, #8095FF, #65BAFD) !important;
+  padding: 10px 25px;
+  border-radius: 20px;
+  
+  color: white
+}
+
+:where(.css-dev-only-do-not-override-1v28nim).ant-collapse>.ant-collapse-item:last-child, :where(.css-dev-only-do-not-override-1v28nim).ant-collapse>.ant-collapse-item:last-child>.ant-collapse-header {
+
+background: linear-gradient(to right, #8095FF, #65BAFD) !important;;
+}
+
+
+.customBtn-outlined{
+border: solid 1.4px  white;
+  padding: 10px 25px;
+  border-radius: 20px;
+  
+  color: white
+}
+
+.customBtn:hover{
+  background-color: white;
+  border: none;
+  color:#ff8553;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
